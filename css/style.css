@@ -1,3 +1,105 @@
 body {
-    font-family: 'Kalam', cursive;
+  font-family: "Kalam", cursive;
+}
+
+.alert-container {
+}
+
+.callout-container {
+  height: 100vh;
+
+  background: url(https://raw.githubusercontent.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4/master/04-BeyondBootstrap/01-updating_our_callout/images/whiskey-background.jpg) no-repeat bottom right fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.quotes-container {
+}
+
+.features-container {
+}
+
+/*Block Dividers*/
+
+.block-divider {
+    width: 50%;
+    height: 5px;
+    border: 0;
+}
+
+.block-divider--red {
+    background-color: red;
+}
+
+.block-divider--short {
+    width: 25%;
+}
+
+
+
+/*Jumbotron*/
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron .lead {
+    margin: 29px;
+    color:white;
+}
+
+.jumbotron .lead .d-none {
+    color: red;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+
+/*Buttons*/
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red {
+    color: white;
+    background-color: red;
+    border-color: red;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    color: red;
+    background-color: white;
+    border-color: white;
 }
