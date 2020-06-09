@@ -21,7 +21,7 @@
   </head>
 
   <body>
-  <!-- Alert -->
+    <!-- Alert -->
     <div class="container-fluid navalert-container">
       <div class="container-fluid alert-container">
         <div class="row d-none d-sm-block">
@@ -87,7 +87,7 @@
           <p class="navbar-text my-auto mr-2">
             <i>Great Whiskey Delivered to your door!</i>
           </p>
-          <a class="btn--cta btn--red" href="/login">Sign In / Sign Up</a>
+          <a     href="/login">Sign In / Sign Up</a>
         </div>
       </nav>
     </div>
@@ -101,7 +101,7 @@
             <h1 class="jumbotron-header">
               The finest whiskeys delivered to your doorstep.
             </h1>
-            <hr class="block-divider block-divider--red" />
+            <hr class="block-divider" />
             <p class="lead">
               Sign up today to start receiving the world's best whiskeys every
               month.
@@ -129,155 +129,168 @@
     <!-- /.callout -->
 
     <!-- Quotes -->
-    <div class="container quotes-container">
-      <section class="quotes">
-        <div class="row">
-          <div class="col-12 my-5">
-            <h2 class="text-uppercase">Quotes:</h2>
+    <div class="container-wrapper">
+      <div class="container quotes-container content-container">
+        <section class="quotes">
+          <div class="row">
+            <div class="col-12 page-header">
+              <h2 class="text-uppercase">Quotes:</h2>
+              <hr class="block-divider block-divider--short" />
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-12 col-md-6">
-            <div class="media">
-              <div class="d-none d-sm-block">
-                <img
-                  src="https://raw.githubusercontent.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4/master/03-Components/02-core_components-part-2/images/girl-image.png"
-                  class="rounded-circle mr-3"
-                  height="100"
-                  width="100"
-                />
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <div class="media">
+                <div class="d-none d-sm-block">
+                  <img
+                    src="https://raw.githubusercontent.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4/master/03-Components/02-core_components-part-2/images/girl-image.png"
+                    class="rounded-circle mr-3"
+                    height="100"
+                    width="100"
+                  />
+                </div>
+                <div class="media-body">
+                  <blockquote class="blockquote">
+                    <p>
+                      I've been introduced to more than 10 great international
+                      whiskeys I never knew about.
+                    </p>
+                    <p>- Jane Doe</p>
+                  </blockquote>
+                </div>
               </div>
-              <div class="media-body">
-                <blockquote class="blockquote">
-                  <p>
-                    I've been introduced to more than 10 great international
-                    whiskeys I never knew about.
-                  </p>
-                  <p>- Jane Doe</p>
-                </blockquote>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="media">
+                <div class="d-none d-sm-block">
+                  <img
+                    src="https://raw.githubusercontent.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4/master/03-Components/02-core_components-part-2/images/guy-image.png"
+                    class="rounded-circle mr-3"
+                    height="100"
+                    width="100"
+                  />
+                </div>
+                <div class="media-body">
+                  <blockquote class="blockquote">
+                    <p>I haven't been sober for months!</p>
+                    <p>- Jane Doe</p>
+                  </blockquote>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-12 col-md-6">
-            <div class="media">
-              <div class="d-none d-sm-block">
-                <img
-                  src="https://raw.githubusercontent.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4/master/03-Components/02-core_components-part-2/images/guy-image.png"
-                  class="rounded-circle mr-3"
-                  height="100"
-                  width="100"
-                />
-              </div>
-              <div class="media-body">
-                <blockquote class="blockquote">
-                  <p>I haven't been sober for months!</p>
-                  <p>- Jane Doe</p>
-                </blockquote>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </div>
     <!-- /.quotes -->
 
     <!-- Table -->
-    <div class="row">
-      <div class="col-12 my-5">
-        <h2 class="text-uppercase">Monthly Favourites</h2>
+    <div class="container-wrapper">
+      <div class="container content-container">
+        <div class="row">
+          <div class="col-12 page-header">
+            <h2 class="text-uppercase">Monthly Favourites</h2>
+            <hr class="block-divider block-divider--short" />
+          </div>
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Origin</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Jack Daniels</td>
+                <td>America</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jamesons</td>
+                <td>Ireland</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Glennfiddich</td>
+                <td>Scotland</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>Red Label</td>
+                <td>Scotland</td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td>Proper Twelve</td>
+                <td>Ireland</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
-      <table class="table table-striped">
-        <thead>
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">Name</th>
-            <th scope="col">Origin</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>Jack Daniels</td>
-            <td>America</td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Jamesons</td>
-            <td>Ireland</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td>Glennfiddich</td>
-            <td>Scotland</td>
-          </tr>
-          <tr>
-            <th scope="row">4</th>
-            <td>Red Label</td>
-            <td>Scotland</td>
-          </tr>
-          <tr>
-            <th scope="row">5</th>
-            <td>Proper Twelve</td>
-            <td>Ireland</td>
-          </tr>
-        </tbody>
-      </table>
     </div>
 
     <!-- Features -->
-    <div class="container features-container">
-      <section class="features">
-        <div class="row">
-          <div class="col-12 my-5">
-            <h2 class="text-uppercase">Features:</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="feature">
-              <h3>
-                <i class="fas fa-gift d-none d-sm-inline"></i> Feature 1
-                <span class="badge badge-success">NEW!</span>
-              </h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-              <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+    <div class="container-wrapper">
+      <div class="container features-container content-container">
+        <section class="features">
+          <div class="row">
+            <div class="col-12 page-header">
+              <h2 class="text-uppercase">Features:</h2>
+              <hr class="block-divider block-divider--short" />
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="feature">
-              <h3>
-                <i class="fas fa-credit-card d-none d-sm-inline"></i> Feature 2
-              </h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-              <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="feature">
+                <h3>
+                  <i class="fas fa-gift d-none d-sm-block"></i> Feature 1
+                  <span class="badge badge--red">NEW!</span>
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="feature">
+                <h3>
+                  <i class="fas fa-credit-card d-none d-sm-block"></i> Feature
+                  2
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+              </div>
+            </div>
+            <div class="col-12 d-md-none d-lg-block col-lg-4">
+              <div class="feature">
+                <h3>
+                  <i class="fas fa-times-circle d-none d-sm-block"></i> Feature
+                  3
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+              </div>
             </div>
           </div>
-          <div class="col-12 d-md-none d-lg-block col-lg-4">
-            <div class="feature">
-              <h3>
-                <i class="fas fa-times-circle d-none d-sm-inline"></i> Feature 3
-              </h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
-              </p>
-              <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
-            </div>
-          </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </div>
     <!-- /.features -->
 
